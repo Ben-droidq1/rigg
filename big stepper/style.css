@@ -1,0 +1,116 @@
+body{
+    background-image: url(Riggs-1988-Eau-DE-Parfum-_1_.webp);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    display: grid;
+    place-items: cener;
+    text-align: center;
+    height:100vh;
+    font-family:monospace;
+    color: whitesmoke;
+}
+#fire{
+    text-shadow: 5px 5px 5px rgb(0, 0, 0) ;
+    place-items: centr;
+    font-style: italic;
+}
+
+
+
+#bitch{
+    background-color: black;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+}
+#id img{
+    height:350px;
+    margin:0 auto;
+
+}
+
+h2{
+    text-shadow: 7px 7px 7px black;
+    
+}
+#racks{
+    width: 200px;
+    padding: 5px;
+    height: 190px;
+    margin: 0 auto;
+    place-items: center;
+    border: 2px solid black;
+    box-shadow: 5px 5px 7px black;
+    
+
+}
+
+
+.blue img{
+    width: 200px;
+    
+}
+.blue{
+    animation: higher linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+
+@keyframes higher{
+    from{ opacity :0;
+           transform:translateX(-300px);
+
+    }
+    to{ opacity:1;
+        transform: translateX(0px);
+
+    }
+}
+ .container{
+    margin:0 auto;
+    width:70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap:7px;
+ }
+ .container img{
+    width:20%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border :2px solid grey;
+    transition: all ease-in-out 0.5s;
+ }
+ .container img:hover{
+    width:35%;
+ }
+ #end{
+    background-color: black;
+    height: 1200px;
+ }
+ 
+ #ricch{
+    padding: 10px;
+    
+ }
+ #end img{
+ float: left;
+ margin: 30px;
+
+ }
+ #life{
+    margin: 20px;
+    width: 50vw;
+    margin-top: 180px;
+    text-align: left;
+ }
+#fin{
+    border-top: 3px solid whitesmoke;
+}
